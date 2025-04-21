@@ -25,11 +25,6 @@ def run(filepath: str):
     # plot a visualization expressing sentiment ratio
     make_plot(rev_list)
 
-    # return sentiments
-    #sentiment_count = zip(Extract_rev,rev_list)
-    #print(list(sentiment_count))
-    #for review, senti in sentiment_count:
-       # print(f"review:{review}\n sentiment:{senti}\n")
     return rev_list
 
 

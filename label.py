@@ -40,12 +40,3 @@ def get_sentiment(text: list) -> list:
     return completion.choices[0].message.content.split()   # Converting strings into a list
 
 
-#in_data = [
-       # "this ring smells weird, don't recomend",
-        #"I love this ring, I use it all the time when working out.",
-        #"I will never buy another brand again, I love this ring",
-        #"It's an ok ring. Some features could be better but for the price its fine.",
-        #"its a ring",
-        #"Bought this ring and it came broken. rip-off."
-    #]
-#get_sentiment(in_data)
